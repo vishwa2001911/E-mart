@@ -1,0 +1,79 @@
+
+.checkout{
+    position: absolute;
+    width: 50%;
+    background-color: #D7BDE2;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
+}
+
+.checkout-box form label{
+    margin-left: 5px;
+}
+
+.checkout-box{
+    width: 70%;
+}
+
+.checkout-box form{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-box form h4{
+    font-size: 20px;
+    margin: 5px 0 5px 0;
+}
+
+.checkout-box form input{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.card-info{
+    display: flex;
+}
+
+.card-info input, .checkout-box form input{
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+
+}
+
+.checkout-box form button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.close-icon{
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    color: gray;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.close-icon:hover{
+    color: black;
+}
+
+.card-info input{
+    width: 100%;
+
+}
+
+
+@media screen and (max-width:800px) {
+    .checkout{
+        
+        width: 70%;
+    }
+}

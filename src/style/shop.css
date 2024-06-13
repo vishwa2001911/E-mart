@@ -1,0 +1,94 @@
+#Shop{
+    width: 100vw;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.shop-main{
+    min-width: 90vw;
+    border-radius: 10px;
+    min-height: 400px;
+    background-color: whitesmoke;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    box-shadow: 6px 6px 5px -1px rgba(0,0,0,0.11);
+    transition: 0.4s;
+}
+
+.shop-main:hover{
+    -webkit-box-shadow: 6px 6px 7px -1px rgba(0,0,0,0.52);
+    -moz-box-shadow: 6px 6px 7px -1px rgba(0,0,0,0.52);
+    box-shadow: 6px 6px 7px -1px rgba(0,0,0,0.52);
+}
+
+.shop-main img{
+    width:60%;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+}
+
+.shop-menu{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-menu h1{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+
+.topBar{
+    width: 100px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #212F3C;
+}
+
+.shop-main-text{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+
+.shop-main-text h3{
+    font-size: 40px;
+}
+.shop-main-text p{
+    font-size: 25px;
+}
+
+.shop-main-text h5{
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.shop-main-text h5:hover{
+    color: #3a546d;
+}
+
+.shop-main-text p, .shop-main-text h3, .shop-main-text h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.items-wrapper{
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    gap: 20px;
+}
+

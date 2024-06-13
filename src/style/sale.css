@@ -1,0 +1,106 @@
+#sale{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.sale-headder{
+    
+    margin-bottom: 50px;
+    width: 80vw;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.sale-headder h3,.sale-headder p{
+    margin: 5px;
+}
+
+.sale-headder button{
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.saleBanner div{
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+}
+
+.sale-headder img {
+    width: 150px;
+    top: 190px;
+    position: fixed;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(3px 3px 7px #666666);
+}
+
+
+.top-items{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.t-i-box {
+    position: relative;
+    width: 40%;
+    height: 250px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.t-i-box img{
+    width: 260px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    rotate: 20%;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(2px 3px 3px #666666);
+}
+
+.t-i-box h3, .t-i-box p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.top-item-list{
+    width: 80vw;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    margin-top: 100px;
+}
+
+
+.checkout-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 500px;
+    background-color: aqua;
+}

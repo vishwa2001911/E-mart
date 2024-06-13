@@ -1,0 +1,79 @@
+.sale-tag{
+    padding: 5px;
+    width: 54px;
+    font-size: 17px;
+    font-weight: normal;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color:#212F3C;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 30px;
+    left: -5px;
+}
+
+
+.f-box{
+    width: 300px;
+    height: 370px;
+    margin-top: 30px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.f-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0;
+    position: relative;
+    transition: 0.4s;
+    -webkit-box-shadow: 6px 6px 5px -1px rgba(0,0,0,0.11);
+    -moz-box-shadow: 6px 6px 5px -1px rgba(0,0,0,0.11);
+    box-shadow: 6px 6px 5px -1px rgba(0,0,0,0.11);
+}
+
+.f-box:hover{
+    -webkit-box-shadow: 6px 6px 7px -1px rgba(0,0,0,0.52);
+    -moz-box-shadow: 6px 6px 7px -1px rgba(0,0,0,0.52);
+    box-shadow: 6px 6px 7px -1px rgba(0,0,0,0.52);
+}
+
+.f-box img{
+    width: 80%;
+    -webkit-transform: scaleX(-1);
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(1px 8px 11px #666666);
+
+}
+
+.sale-price{
+    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    background-color: #212F3C;
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.f-box h6{
+    cursor: pointer;
+}
+
+.f-box h6:hover{
+    color: gray;
+}
+
+.f-box h1,.f-box h5,.f-box h6{
+    margin: 0;
+}
